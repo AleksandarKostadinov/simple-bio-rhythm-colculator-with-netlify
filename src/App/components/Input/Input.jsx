@@ -41,7 +41,7 @@ export default class InputField extends React.Component {
       return (
          <form onSubmit={this.handleSubmit}>
         <label>
-          Pick your favorite flavor:
+          Date of birth:
           <input onChange={this.handleChange} value={this.state.value}/> 
           <textarea value={JSON.stringify(this.state.listOfResults)} /> 
         </label>
